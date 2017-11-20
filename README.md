@@ -15,12 +15,14 @@ Dependencies:
     
 Usage:
   Run the run_tree program in ipython with an argument for the newick format tree file. Some file examples are in the examples folder.
+  If tree file is invalid or not provided a sample tree will be loaded by default. 
   
     example: run run_tree examples/primates.newick
     
-    If tree file is invalid or not provided a sample tree will be loaded by default. 
+    
   
   Functions:
+  
     Canopy Zoom mode: the center for zooming will be at the X-coordinate of mouse position and Y coordinate of tree canopy,
     
     Normal Zoom mode center: the center for zooming will be at the X and Y coordinates of mouse position,
