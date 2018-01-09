@@ -5,13 +5,16 @@ A Python program to zoom/pan through phylogenetic trees structured by ivy
 
 Dependencies:
   ivy - a python library for phylogenetics: https://github.com/rhr/ivy 
+        pip install https://github.com/rhr/ivy/zipball/master
   
   PyQTGraph 0.10.0 - a python library for graphics programming: https://github.com/pyqtgraph/pyqtgraph 
+                     pip install pyqtgraph
   
   NumPy - a python library for mathematical operations: https://github.com/numpy/numpy 
+          pip install numpy
   
-  Note: Please ensure you also have installed the dependencies for ivy mentioned in its documentation
-    (numpy scipy matplotlib biopython pyparsing)
+  Note: You may also be required to seperately install the dependencies for ivy and pyqtgraph mentioned in their documentation
+    (numpy scipy matplotlib biopython pyparsing PyQt5)
     
 Usage:
   Run the run_tree program in ipython with an argument for the newick format tree file. Some file examples are in the examples folder.
